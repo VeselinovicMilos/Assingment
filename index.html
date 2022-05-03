@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assingment</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            margin: 0px;
+        }
+
+        #heading {
+            grid-column: 1/6;
+            padding: 10px;
+        }
+
+        #text{
+            grid-column: 1/6;
+        }
+
+        #container {
+            display: grid;
+            width: 1070px;
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap: 16px;
+        }
+
+        .frac {
+            background-color: rgb(235, 225, 225);
+            border: 1px solid black;
+            border-radius: 16px;
+            height: 160px;
+            width: 192px;
+        }
+
+        #img {
+            border-radius: 16px 16px 0 0;
+            background-color: rgb(31, 126, 189);
+            background-image: url("placeholder-image.png");
+            background-size: contain;
+            width: 100%;
+            height: 80%;
+            margin: 0%;
+        }
+
+        #text {
+            width: 100%;
+            height: 20%;
+            margin: 0%;
+            text-align: center;
+            line-height: 200%;
+        }
+
+        @media screen and (min-width: 700px) and (max-width: 1200px){
+            #container{
+                grid-template-columns: repeat(3, 1fr);
+                width: 890px;
+            }
+            #heading {
+            grid-column: 1/4;
+        }
+
+        #text{
+            grid-column: 1/4;
+        }
+        }
+        @media screen and (max-width: 700px){
+            #container{
+                grid-template-columns: repeat(1, 1fr);
+                width: 300px;
+            }
+            #heading {
+            grid-column: 1/1;
+        }
+
+        #text{
+            grid-column: 1/1;
+        }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <h1 id="heading">Gallery heading</h1>
+        <div class="frac" id="item-1">
+            <div id="img"></div>
+            <p id="text">Image title</p>
+        </div>
+        <div class="frac" id="item-2">
+            <div id="img"></div>
+            <p id="text">Image title</p>
+        </div>
+        <div class="frac" id="item-3">
+            <div id="img"></div>
+            <p id="text">Image title</p>
+        </div>
+        <div class="frac" id="item-4">
+            <div id="img"></div>
+            <p id="text">Image title</p>
+        </div>
+        <div class="frac" id="item-5">
+            <div id="img"></div>
+            <p id="text">Image title</p>
+        </div>
+        <div class="frac" id="item-6">
+            <div id="img"></div>
+            <p id="text">Image title</p>
+        </div>
+        <div class="frac" id="item-7">
+            <div id="img"></div>
+            <p id="text">Image title</p>
+        </div>
+        <div class="frac" id="item-8">
+            <div id="img"></div>
+            <p id="text">Image title</p>
+        </div>
+        <div class="frac" id="item-9">
+            <div id="img"></div>
+            <p id="text">Image title</p>
+        </div>
+        <div class="frac" id="item-10">
+            <div id="img"></div>
+            <p id="text">Image title</p>
+        </div>
+        <div id="text">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus eos maxime veniam repellat vitae
+                tenetur velit culpa maiores dignissimos suscipit quod temporibus, vel quaerat nulla voluptatibus, dolore
+                tempora accusantium ratione ab, perferendis aut. Quos fugit necessitatibus quae pariatur, delectus
+                molestias voluptate molestiae dolore porro vero corrupti, ad totam repudiandae architecto, blanditiis ea
+                nemo vel numquam aspernatur velit unde sit explicabo harum accusantium! Nisi optio eum dolorum eligendi,
+                aperiam placeat praesentium cumque temporibus tempora! Rerum consequuntur tempore dolorum amet aut ut
+                nam explicabo nemo quia quasi ipsam modi eos sapiente repellat incidunt, excepturi debitis obcaecati
+                quas saepe. Totam voluptates quo, alias, nulla placeat laborum repellat quasi doloremque ullam sint
+                quisquam sed dolores est ipsa illum laudantium incidunt explicabo porro molestiae tempora rerum?
+                Repellendus illum ratione aut quae? Perferendis, porro? Eos beatae, aspernatur, est neque unde officia
+                officiis, cumque sit quasi sapiente nulla! Doloribus dolorem tempore eum exercitationem architecto,
+                neque aliquam aspernatur atque veritatis vero esse enim ex mollitia vel veniam id assumenda minus,
+                expedita perspiciatis et blanditiis nam at commodi cumque. Sequi possimus voluptatem alias deserunt
+                quasi eos nulla iure ullam, rerum quo fugit inventore illo, perspiciatis et, dignissimos fuga eum
+                doloribus dolore? Temporibus eius suscipit dolor in ducimus rerum error.</p>
+        </div>
+    </div>
+</body>
+
+</html>
